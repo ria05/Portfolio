@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">"
+</head>
+
+<body>
+    <header>
+        <!-- HOME SECTION -->
+        <nav id="home">
+            <div class="left"> RIYA'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about-text">ABOUT</a></li>
+                    <li><a href="#technology">SKILLS</a></li>
+                    <li><a href="#contact"> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <h4>Hi, my name is </h4><span class="purple">
+                    <h1>Riya kanojia</h1>
+                </span>
+                <div>
+                    <h3> I'm a
+                        <span id="element"></span>
+                    </h3>
+
+
+                    <hr>
+                    <br />
+                    <div class="connect">
+                        <button type="button">Let's Connect</button>
+
+                        <div class="links">
+                            <a
+                                href="https://www.linkedin.com/mynetwork/discovery-see-all/?usecase=PEOPLE_FOLLOWS&followMember=riya-kanojia-610a51256">LinkedIN</a>
+                            <a href="https://github.com/ria05">Github</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="rightsection"> <img src="PROFILE.jpg">
+            </div>
+
+        </section>
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about-text">
+            <div class="main">
+                <img
+                    src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9">
+                <div class="about-text">
+                    <h3> About Me</h3>
+                    <h5> Developer & Designer</h5>
+                    <p> I'm a beginner in the world of web development, this is an exciting journey of continuous
+                        learning and growth. I believe that the beauty of web development lies in its ever-evolving
+                        nature, and I'm thrilled to be part of this dynamic field.My journey started with a curiosity to
+                        understand how websites work and has since grown into a deep-seated passion for coding. I'm
+                        constantly exploring new technologies and expanding my skill set. I embrace challenges as
+                        opportunities to learn, and I'm committed to pushing my boundaries to create better and more
+                        user-friendly web experiences.This portfolio is a reflection of my progress as a web developer.
+                        I look forward to taking on new projects and collaborating with others to bring innovative ideas
+                        to life.
+                        When I'm not coding, you can find me reading about the latest web development trends,
+                        experimenting with new technologies, and seeking inspiration from the incredible web development
+                        community</p>
+
+                    <br />
+
+
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['front end developer', 'problem solver', 'creative designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <!-- SKILLS SECTION -->
+
+    <div class="skills" id="technology">
+        <div class="technology">
+            <h3> Skills </h3>
+        </div>
+        <div class=box>
+            <div class="card">
+
+
+                <img src=https://strong-maamoul-c87bc7.netlify.app/skillsIcon/HTML.png>
+
+
+                <img src="https://strong-maamoul-c87bc7.netlify.app/skillsIcon/CSS.png" alt="">
+
+                <img src=https://strong-maamoul-c87bc7.netlify.app/skillsIcon/JS.png alt="">
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT SECTION  -->
+    <div class="contactme" id="contact">
+        <h3> Contact Me</h3>
+        <form>
+            <form>
+                <div class="name">
+                    <input type="text" placeholder="Enter your Name" class="nameInput">
+                </div>
+
+                <div class="email">
+                    <input type="text" placeholder="Enter your Email" class="emailInput">
+                </div>
+
+                <div class="message">
+                    <textarea cols="30" rows="10" placeholder="Enter your Message" class="messageInput"></textarea>
+                </div>
+
+                <button class="submit demo" onclick="formSubmit()">Submit</button>
+
+            </form>
+    </div>
+
+
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer">
+            Copyright &copy; All Right Reserved
+
+            <div class="icons">
+
+    </footer>
+
+</body>
+
+</html>
